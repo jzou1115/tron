@@ -1,0 +1,15 @@
+#!/bin/bash
+
+python makeboard.py board.txt 50 50
+
+python printboard.py | echo
+
+
+
+
+'''
+for i in `seq 1 10001`;
+do
+	echo $i
+done
+'''

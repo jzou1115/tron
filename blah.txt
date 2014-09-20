@@ -1,0 +1,18 @@
+if p1move == "N":
+	p1nextpos = [p1position[0]-1,p1position[1]]
+elif p1move == 'S':
+	p1nextpos = [p1position[0]+1,p1position[1]]
+elif p1move == 'E':
+	p1nextpos = [p1position[0],p1position[1]+1]
+elif p1move == 'W':
+	p1nextpos = [p1position[0],p1position[1]-1]
+
+
+if p2move == 'N':
+	p2nextpos = [p2position[0]-1,p2position[1]]
+elif p2move == 'S':
+	p2nextpos = [p2position[0]+1,p2position[1]]
+elif p2move == 'E':
+	p2nextpos = [p2position[0],p2position[1]+1]
+elif p2move == 'W':
+	p2nextpos = [p2position[0],p2position[1]-1]
